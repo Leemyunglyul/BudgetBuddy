@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Statistics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Expense Statistics</h1>
+    <form id="month-form">
+      <input type="number" id="year" placeholder="Year (e.g., 2025)" required>
+      <input type="number" id="month" placeholder="Month (1-12)" required>
+      <button type="submit">View Statistics</button>
+    </form>
+    <div id="statistics">
+      <h2>Total Amount: <span id="total-amount"></span></h2>
+      <h3>Category Breakdown:</h3>
+      <ul id="category-list"></ul>
+    </div>
+  </div>
+  <script src="statistics.js"></script>
+</body>
+</html>

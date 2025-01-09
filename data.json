@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "date": "2025-01-01",
+    "amount": 10000,
+    "category": "Food",
+    "memo": "Lunch"
+  },
+  {
+    "id": 2,
+    "date": "2025-01-02",
+    "amount": 20000,
+    "category": "Transport",
+    "memo": "Bus fare"
+  },
+  {
+    "id": 1736452936485,
+    "date": "2025-01-09",
+    "amount": "2",
+    "category": "음식",
+    "memo": "버스 카드"
+  }
+]
